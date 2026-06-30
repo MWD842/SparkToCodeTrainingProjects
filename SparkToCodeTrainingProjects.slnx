@@ -1,6 +1,3 @@
 <Solution>
-  <Project Path="SparkToCodeTrainingProjects/SparkToCodeTrainingProjects.esproj">
-    <Build />
-    <Deploy />
-  </Project>
+  <Project Path="FirstCsharpProject/FirstCsharpProject.csproj" />
 </Solution>
