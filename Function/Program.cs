@@ -44,10 +44,24 @@ namespace Function
             //DateTime timing = DateTime.Today;
             //Console.WriteLine(timing);
 
-            DateTime startSubscription = DateTime.Now;
-            DateTime endSubscription = startSubscription.AddDays(30);
-            Console.WriteLine("Your subscription ends on: "+endSubscription);
+            //DateTime startSubscription = DateTime.Now;
+            //DateTime endSubscription = startSubscription.AddDays(30);
+            //Console.WriteLine("Your subscription ends on: "+endSubscription);
 
+            /////////////////
+
+            // string function call
+            // stringName.functionName(parameters)
+            string word = "Hello, World";
+            int length = word.Length;
+            string sublength = word.Substring(7, 5);
+            string upperedWord = word.ToUpper();
+            string loweredWord = word.ToLower();
+
+            Console.WriteLine("Length: " + length + "\nSublength: " + sublength);
+            Console.WriteLine("Uppercase: " + upperedWord + "\nLowercase: " + loweredWord);
+            // a is diffenet from A
+            // ahmed is equal to AHMED is equal to Ahmed
         }
     }
 }
