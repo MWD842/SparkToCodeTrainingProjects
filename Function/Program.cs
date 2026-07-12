@@ -52,16 +52,31 @@ namespace Function
 
             // string function call
             // stringName.functionName(parameters)
-            string word = "Hello, World";
-            int length = word.Length;
-            string sublength = word.Substring(7, 5);
-            string upperedWord = word.ToUpper();
-            string loweredWord = word.ToLower();
+            //string word = "Hello, World";
+            //int length = word.Length;
+            //string sublength = word.Substring(7, 5);
+            //string upperedWord = word.ToUpper();
+            //string loweredWord = word.ToLower();
 
-            Console.WriteLine("Length: " + length + "\nSublength: " + sublength);
-            Console.WriteLine("Uppercase: " + upperedWord + "\nLowercase: " + loweredWord);
+            //Console.WriteLine("Length: " + length + "\nSublength: " + sublength);
+            //Console.WriteLine("Uppercase: " + upperedWord + "\nLowercase: " + loweredWord);
             // a is diffenet from A
             // ahmed is equal to AHMED is equal to Ahmed
+
+            string name = "Ahmed";
+            Console.WriteLine("Enter your name: ");
+            string input = Console.ReadLine();
+            if (input.ToUpper() == name.ToUpper())
+            {
+                Console.WriteLine("Welcome to application, successfull signed on");
+            }
+            else
+            {
+                Console.WriteLine("Invalid name, please try again");
+            }
+
+            
         }
+
     }
 }
