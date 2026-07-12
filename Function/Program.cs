@@ -27,7 +27,12 @@
 
             /////////////////
             
-
+            Console.WriteLine("Enter base number: ");
+            float baseNumber = float.Parse(Console.ReadLine());
+            Console.WriteLine("Enter power number: ");
+            float powerNumber = float.Parse(Console.ReadLine());
+            double result1= Math.Pow(baseNumber, powerNumber);
+            Console.WriteLine(result1);
         }
     }
 }
