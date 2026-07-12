@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="FirstCsharpProject/FirstCsharpProject.csproj" />
+  <Project Path="Function/Function.csproj" Id="65cc799c-1377-474b-b190-2fd48c762757" />
 </Solution>
