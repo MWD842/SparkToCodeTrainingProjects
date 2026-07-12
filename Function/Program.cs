@@ -1,4 +1,6 @@
-﻿namespace Function
+﻿using System.Data;
+
+namespace Function
 {
     internal class Program
     {
@@ -26,7 +28,7 @@
             //Console.WriteLine(result);
 
             /////////////////
-            
+
             //Console.WriteLine("Enter base number: ");
             //float baseNumber = float.Parse(Console.ReadLine());
             //Console.WriteLine("Enter power number: ");
@@ -35,12 +37,17 @@
             //Console.WriteLine(result1);
 
             /////////////////
-            
-            DateTime currentTiming = DateTime.Now; 
-            Console.WriteLine(currentTiming);
 
-            DateTime timing = DateTime.Today;
-            Console.WriteLine(timing);
+            //DateTime currentTiming = DateTime.Now; 
+            //Console.WriteLine(currentTiming);
+
+            //DateTime timing = DateTime.Today;
+            //Console.WriteLine(timing);
+
+            DateTime startSubscription = DateTime.Now;
+            DateTime endSubscription = startSubscription.AddDays(30);
+            Console.WriteLine("Your subscription ends on: "+endSubscription);
+
         }
     }
 }
