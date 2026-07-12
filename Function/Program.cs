@@ -1,4 +1,5 @@
 ﻿using System.Data;
+using System.Diagnostics.Tracing;
 
 namespace Function
 {
@@ -63,6 +64,8 @@ namespace Function
             // a is diffenet from A
             // ahmed is equal to AHMED is equal to Ahmed
 
+            Console.WriteLine("Enter a word: ");
+            string word = Console.ReadLine();
             string name = "Ahmed";
             Console.WriteLine("Enter your name: ");
             string input = Console.ReadLine();
@@ -75,7 +78,8 @@ namespace Function
                 Console.WriteLine("Invalid name, please try again");
             }
 
-            
+            bool containsResult = word.Contains("hi");
+            Console.WriteLine("Is it contains word (hi): " + containsResult);
         }
 
     }
